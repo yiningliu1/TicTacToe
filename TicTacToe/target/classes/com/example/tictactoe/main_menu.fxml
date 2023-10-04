@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tictactoe.MainMenuController">
+   <children>
+      <Text layoutX="85.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tic Tac Toe" textAlignment="JUSTIFY">
+         <font>
+            <Font name="Rockwell Extra Bold" size="64.0" />
+         </font>
+      </Text>
+      <Button fx:id="btn_1player" layoutX="226.0" layoutY="187.0" mnemonicParsing="false" onAction="#onePlayer" text="1 Player">
+         <font>
+            <Font name="Rockwell Extra Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_2players" layoutX="219.0" layoutY="257.0" mnemonicParsing="false" onAction="#twoPlayers" text="2 Players">
+         <font>
+            <Font name="Rockwell Extra Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
